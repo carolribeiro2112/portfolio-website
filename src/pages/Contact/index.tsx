@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import Header from '../../components/Header';
+import { Principal, Form } from './styles';
 
 
 const Contato = () => {
@@ -10,7 +11,7 @@ const Contato = () => {
         <title>Contato</title>
       </Helmet>
       <Header/>
-      <div>
+      <Principal>
         <h1>Contato</h1>
         <p>Você pode entrar em contato comigo através dos seguintes meios:</p>
         <ul>
@@ -19,13 +20,14 @@ const Contato = () => {
           <li>linkedIn</li>
         </ul>
         <p>Ou você pode preencher o seguinte formulário com as suas informações</p>
-        <form action="">
-          <input type="text" placeholder="Digite o seu nome..."/>
-          <input type="text" placeholder="Digite o seu email para contato..."/>
-          <select name="" id="">Selecione o assunto</select>
-          <textarea name="" >Digite a mensagem</textarea>
-        </form>
-      </div>
+        <Form action="">
+          <input type="text" placeholder="Digite o seu nome..."/> <br/>
+          <input type="text" placeholder="Digite o seu email para contato..."/> <br/>
+          <select name="" placeholder='Selecione o assunto'>Selecione o assunto</select> <br/>
+          <textarea name="" >Digite a sua mensagem</textarea> <br/>
+          <button>Enviar</button>
+        </Form>
+      </Principal>
     </>
   )
 }

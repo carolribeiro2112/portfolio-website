@@ -14,7 +14,7 @@ export const Div = styled.div`
 
 export const Cards = styled.section`
   max-width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -29,6 +29,7 @@ export const Cards = styled.section`
     }
 
     .content{
+      text-align: center;
       padding: 24px;
     }
   }
