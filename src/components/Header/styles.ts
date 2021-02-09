@@ -23,7 +23,7 @@ export const Nav = styled.nav`
     }
 
     &:hover {
-      color: ${shade(0.2,'#fff')};
+      color: ${shade(0.2,'#8257e6')};
     }
   }
 `;

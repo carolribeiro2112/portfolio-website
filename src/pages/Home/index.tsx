@@ -2,6 +2,8 @@ import React from 'react';
 import {Helmet} from 'react-helmet';
 import Header from '../../components/Header';
 
+import {Section} from './styles';
+
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
         <title>Home</title>
       </Helmet>
       <Header/>
-      <div>
+      <Section>
         <img src="https://instagram.fcgh7-1.fna.fbcdn.net/v/t51.2885-19/s320x320/57267825_311939399481970_9045825433232211968_n.jpg?_nc_ht=instagram.fcgh7-1.fna.fbcdn.net&_nc_ohc=fe6FX_RJTVMAX_V0q5C&tp=1&oh=65096186666d0069c92545b4a019b7c5&oe=6048E8F9" alt=""/>
         <h1>Ana Carolina Ribeiro</h1>
         <h2>Engenheira Química em transição de carreira, apaixonada por programação</h2>
@@ -23,7 +25,7 @@ const Home = () => {
           <li>Typescript</li>
           <li>React JS</li>
         </ul>
-      </div>
+      </Section>
     </>
   )
 }
